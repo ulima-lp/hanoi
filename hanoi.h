@@ -4,8 +4,9 @@ using namespace std;
 
 class Disco
 {
-	int numero;
+	
 public:
+	int numero;
 	Disco* siguienteDisco;
 	Disco(int num);
 	void Imprimir();
@@ -33,4 +34,5 @@ public:
 	void ProcesarMovimiento(string varillaOrigen, string varillaDestino);
 	void ImprimirJuego();
 	bool VerificarGanador();
+	Varilla* ObtenerVarilla(string letra);
 };
