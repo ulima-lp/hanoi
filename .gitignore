@@ -1,2 +1,4 @@
 *.vcxproj
 *.vcxproj.*
+bin
+bin_int

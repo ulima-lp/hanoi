@@ -19,7 +19,8 @@ public:
 	Varilla();
 	void ApilarDisco(Disco* disco);
 	Disco* DesapilarDisco();
-	void Imprimir();
+	void Imprimir(int nivel);
+	Disco* ObtenerDisco(int pos);
 };
 
 class Juego
